@@ -245,6 +245,7 @@ nav a:hover{
   
   @media only screen and (min-width:240px){
     @media only screen and (max-width:1023px){
+
         .cabecalho{
             display: none;
           }
@@ -254,11 +255,58 @@ nav a:hover{
           }
       body{
         background-image: none;
+        overflow-x: hidden;
       }
   
       #nav_header{
         display: none;
       }
+
+      .mensagem{
+        height: 60vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .textocuidando {
+        width: 50vw;
+        height: 30vh;
+        text-align: center;
+        color: #fff;
+        
+    }
+
+    .textocuidando p {
+     font-size: 3vw;
+      
+  }
+
+  .logodois img{
+    width: 13vw;
+    height: 13vw;
+  }
+
+  .imagens{
+    flex-direction: column;
+    width: 50vw;
+    height: 90vh;
+    background-color: #F1F1F1;
+    position: absolute;
+    left:10vw;
+    top:65vh;
+    border-radius: 4vw;
+    display: flex;
+    align-items: center;
+  }
+
+  .rodape{
+    display: none;
+  }
+
+
+
   
       #logo, #mente-roxo{
         font-size: 24px;
